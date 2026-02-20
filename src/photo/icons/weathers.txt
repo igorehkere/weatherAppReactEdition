@@ -1,0 +1,5 @@
+Солнечно: Clear, Overcast , Sunny,
+Облачно: Cloudy , Partly cloudy
+Дождливо: Patchy rain nearby', Light drizzle, Light rain, Moderate rain, Light freezing rain, Light rain shower
+Туман: Haze, Mist, Freezing fog
+Снег: Heavy snow, Moderate snow, Light snow, Freezing drizzle
