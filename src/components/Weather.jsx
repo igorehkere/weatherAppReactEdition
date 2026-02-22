@@ -79,7 +79,7 @@ function Weather () {
             
             <div className="data">
                 <p className="dayWeek">{weather ? days[d.getDay() - 1] : 'Unknown'}</p>
-                <p className="time">{weather ? `${d.getHours()}:${d.getMinutes() > 9 ? d.getMinutes() : `0${d.getMinutes}`}` : 'FF am'}</p>
+                <p className="time">{weather ? `${d.getHours()}:${d.getMinutes() > 9 ? d.getMinutes() : `0${d.getMinutes()}`}` : 'FF am'}</p>
             </div>
             <div className="param">
                 <div className="wind">
