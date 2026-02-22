@@ -1,11 +1,12 @@
 import React from "react";
 
-function setImage (weath) {
+function setImage (weath, touch) {
         const sunny = ['clear', 'overcast' , 'sunny'];
         const cloudy = ['cloudy' , 'partly cloudy'];
         const rainy = ['patchy rain nearby', 'light drizzle', 'light rain', 'moderate rain', 'light freezing rain', 'light rain shower', 'rain'];
         const foggy = ['haze', 'mist', 'freezing fog'];
         const snow = ['heavy snow', 'moderate snow', 'light snow', 'freezing drizzle', 'snow', 'light snow shower', 'blowing snow', 'snow shower'];
+
         if (sunny.includes(weath.description.toLowerCase())) {
             return (
                 <div className="temp">
